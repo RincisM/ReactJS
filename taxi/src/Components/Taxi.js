@@ -161,6 +161,7 @@ function Taxi() {
 
   return (
     <div className="taxi-container">
+      <h1 className="heading">GO TAXI</h1>
       <label htmlFor="From">From:</label>
       <input
         type="text"
@@ -171,7 +172,9 @@ function Taxi() {
         onBlur={handleFromInputBlur}
       />
       {renderSuggestions(fromSuggestions, "from")}
+
       <br />
+
       <label htmlFor="To">To:</label>
       <input
         type="text"
@@ -195,6 +198,7 @@ function Taxi() {
         selected={bookingDate}
         onChange={handleDateChange}
         placeholderText="Select Booking Date"
+        className="reactdatepicker"
       />
       <DatePicker
         selected={bookingTime}
@@ -203,7 +207,7 @@ function Taxi() {
         showTimeSelect
         showTimeSelectOnly
         timeIntervals={15}
-        className="react-datepicker__input-container"
+        className="reactdatepicker"
         dateFormat="h:mm aa"
         placeholderText="Select Booking Time"
       />

@@ -6,6 +6,7 @@
     background-color: #000000;
     padding: 20px;
     box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   }
   
   .salary-card {
@@ -29,5 +30,11 @@
     border-radius: 5px;
     cursor: pointer;
     margin-top: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+  .heading {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 2px;
   }
   

@@ -2,8 +2,11 @@ body {
     margin: 0;
     padding: 0;
     background: linear-gradient(to bottom, #000000, #1f1f1f);
-    font-family: Arial, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: white;
+  }
+  .heading {
+    color: yellow;
   }
   
   .taxi-container {
@@ -19,7 +22,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 10px;
+    margin: 5px;
   }
   
   input[type="text"],
@@ -53,30 +56,8 @@ body {
   }
   
   p {
-    margin: 10px;
-  }
-  
-  .react-datepicker__input-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin: 10px auto;
-  }
-  
-  .react-datepicker__input-container input {
-    width: 300px;
-    height: 40px;
-    padding: 10px;
-    margin: 10px;
-    border: none;
-    background-color: #000000;
-    color: white;
-  }
-  
-  
-  .react-datepicker__input-container input::placeholder {
-    color: #808080;
+    margin: 5px;
+    color: yellow;
   }
   
   button {

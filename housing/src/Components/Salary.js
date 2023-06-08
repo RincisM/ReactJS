@@ -37,6 +37,7 @@ class Salary extends Component {
     return (
       <div className="salary-container">
         <div className="salary-card">
+          <h1 className="heading">Month Calculator</h1>
           <label htmlFor="annualSalary">Enter your Annual Salary:</label>
           <input
             className="salary-input"

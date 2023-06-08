@@ -1,5 +1,5 @@
 .outer-background {
-    background-color: #8b4513; /* Chocolate Brown */
+    background-color: #8b4513;
     padding: 146px;
     display: flex;
     justify-content: center;
@@ -7,15 +7,16 @@
   }
   
   .card-container {
-    background-color: #d2b48c; /* Tan */
+    background-color: #d2b48c;
     padding: 20px;
     border-radius: 10px;
     width: 400px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   }
   
   .heading {
-    color: #8b4513; /* Chocolate Brown */
+    color: #8b4513;
     text-align: center;
     margin-bottom: 20px;
     font-size: 24px;
@@ -32,20 +33,20 @@
   td {
     padding: 10px;
     text-align: left;
-    border-bottom: 1px solid #654321; /* Dark Brown */
+    border-bottom: 1px solid #654321;
   }
   
   th {
-    background-color: #a0522d; /* Sienna Brown */
+    background-color: #a0522d;
     color: #fff;
   }
   
   td {
-    background-color: #fff8dc; /* Cornsilk */
+    background-color: #fff8dc;
   }
   
   button {
-    background-color: #8b4513; /* Chocolate Brown */
+    background-color: #8b4513;
     color: #fff;
     padding: 10px 20px;
     border: none;
@@ -54,12 +55,12 @@
   }
   
   button:hover {
-    background-color: #a0522d; /* Sienna Brown */
+    background-color: #a0522d;
   }
   
   p {
     margin-bottom: 10px;
-    border-bottom: 1px solid #654321; /* Dark Brown */
+    border-bottom: 1px solid #654321;
     padding-bottom: 10px;
   }
   

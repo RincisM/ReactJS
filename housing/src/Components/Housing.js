@@ -10,7 +10,7 @@ class Housing extends Component {
     let houseCo = parseFloat(houseCost);
     let downPaymentCost = houseCo * parseFloat(downPayment);
     let months = (downPaymentCost / monthlySaved).toFixed(0);
-    let years = (months / 12).toFixed(0);
+    let years = (months / 12).toFixed(1);
     return (
       <div className="housing-container">
         <div className="housing-card">
