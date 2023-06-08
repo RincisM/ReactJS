@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #000000, #1f1f1f);
+    font-family: Arial, sans-serif;
+    color: white;
+  }
+  
+  .taxi-container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .input-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+  }
+  
+  input[type="text"],
+  select,
+  button {
+    width: 300px;
+    height: 40px;
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    background-color: #000000;
+    color: white;
+  }
+  
+  input[type="text"]::placeholder {
+    color: #808080;
+  }
+  
+  select {
+    color: white;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    padding: 5px;
+    cursor: pointer;
+  }
+  
+  p {
+    margin: 10px;
+  }
+  
+  .react-datepicker__input-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10px auto;
+  }
+  
+  .react-datepicker__input-container input {
+    width: 300px;
+    height: 40px;
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    background-color: #000000;
+    color: white;
+  }
+  
+  
+  .react-datepicker__input-container input::placeholder {
+    color: #808080;
+  }
+  
+  button {
+    background-color: #FFD700;
+    color: black;
+    cursor: pointer;
+  }
+  
+  button:disabled {
+    background-color: #808080;
+    cursor: not-allowed;
+  }
+  
+
+  .react-datepicker-wrapper {
+    width: auto !important;
+    display: block !important;
+  }

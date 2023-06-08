@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to bottom, #000000, #1f1f1f);
+  font-family: 'Roboto', sans-serif;
+  color: white;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: linear-gradient(45deg, #16222a, #242c30, #16222a);
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+}
+
+input[type="text"],
+input[type="number"],
+select,
+button {
+  width: 300px;
+  height: 40px;
+  padding: 10px;
+  margin: 10px;
+  border: none;
+  background-color: #223f4c;
+  color: white;
+  border-radius: 4px;
+}
+
+input[type="text"]::placeholder,
+input[type="number"]::placeholder {
+  color: #808080;
+}
+
+select {
+  color: white;
+}
+
+.table {
+  border-collapse: collapse;
+  width: 400px;
+  margin: 20px auto;
+}
+
+.table th,
+.table td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  color: white;
+}
+
+.table th {
+  background-color: #335e6d;
+  font-weight: bold;
+}
+
+.button {
+  margin-top: 20px;
+  background-color: #2779bd;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+}
+
+.button:hover {
+  background-color: #1e577e;
+}

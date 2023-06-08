@@ -1,0 +1,36 @@
+.housing-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 05px;
+    box-sizing: border-box;
+  }
+  
+  .housing-card {
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    padding: 20px;
+    width: 400px;
+    box-sizing: border-box;
+    margin-top: 10px;
+  }
+  
+  .housing-box {
+    background-color: #ebebeb;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .housing-result p {
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  .housing-result .amount {
+    font-weight: bold;
+  }
+  
+  
