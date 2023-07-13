@@ -17,6 +17,7 @@ class Cookies extends Component {
       event.target.parentNode.previousSibling.querySelector("input").value
     );
     if (this.state.blueberry <= 0) {
+      alert("BlueBerry Sold Out");
       return;
     }
     this.setState(
@@ -35,6 +36,7 @@ class Cookies extends Component {
       event.target.parentNode.previousSibling.querySelector("input").value
     );
     if (this.state.cookies <= 0) {
+      alert("Cookies Sold Out");
       return;
     }
     this.setState(
